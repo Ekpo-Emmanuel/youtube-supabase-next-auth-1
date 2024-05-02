@@ -4,7 +4,8 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import { FaGoogle  } from "react-icons/fa6";
 import { useRouter } from 'next/navigation';
-import LoadingAnimation from '@/app/_components/LoadingAnimation';
+import LoadingAnimation from '../../../../app/_components/LoadingAnimation';
+
 
 
 export default function page() {
